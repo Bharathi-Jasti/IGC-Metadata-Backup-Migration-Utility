@@ -19,18 +19,24 @@ RETURNCODE
 
 
 
+  
 
 
 This utility tool is developed out of the below needs:
+  
 1.	To Backup the Metadata content across environments using single utility tool 
 2.	To Migrate/Import the Metadata content in multiple environments using single utility. 
 3.	Quick storage and Manual Versus Automated Approach over 60% reduction in effort
 4.	Easy to plug in anywhere.
+  
 How to install:
+  
 You'll need the following components installed:
 Python(Anaconda ) – Install Python and Import all the pandas to run the script
 IGC Application (Information Governance catalog- Business Glossary) - Access is required.
+  
 How to use:
+  
 1.	Once Python is installed with required Pandas, Copy the python script including backup folder to current home directory.
 2.	Change the Server name (yellow)to required IGC server environment (QA/prod) in Run_backup.py script.
 3.	Keep the assets to be imported in Excel file in backup folder with the given components in script as (host,db,schema and table)
